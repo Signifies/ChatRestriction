@@ -1,0 +1,6 @@
+Chat:
+  Formatting: "&8[&a%world%&8] &6&o%username%: &7%message%"
+  chat-denied: "&cThe chat has been disabled, %player% &6."
+Message:
+  Prefix: "&8[&6%sender% &8&l-> &c%recip%&8] "
+  Format: "%prefix% &7%message%"

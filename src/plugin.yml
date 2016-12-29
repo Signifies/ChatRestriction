@@ -1,0 +1,29 @@
+name: ChatRestriction
+main: me.ES359.ChatRestriction.ChatRestriction
+version: 2.1
+description: Chat restriction plugin.
+authors: [ES359]
+
+commands:
+  chat:
+    description: Main command for plugin.
+    aliases: [c,chatrestriction]
+
+  message:
+    description: Custom message command.
+    aliases: [msg,yell,hello]
+
+permissions:
+  chatrestriction.*:
+    description: Allows usage of all commands.
+    children:
+      chatrestriction.cmd: true
+      chatrestriction.reload: true
+      chatrestriction.enable: true
+      chatrestriction.disable: true
+      chatrestriction.clear: true
+      chatrestriction.clearself: true
+      chatrestriction.permissions: true
+      chatrestriction.bypass: true
+      chatrestriction.message: true
+    default: false
